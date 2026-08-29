@@ -13,5 +13,15 @@ public class Main {
         Profesor p2 = new Profesor("Kellyn Rodriguez", 2800000);
         p1.mostrarInfo();
         p2.mostrarInfo();
-    }
+        //curso c1, c2, c3 usan constructores distintos pero todos terminan llamadno al completo
+        System.out.println("\n===== CURSOS =====");
+        Curso c1 = new Curso("Programación I");                       // constructor 1 (solo nombre)
+        Curso c2 = new Curso("Bases de Datos", 30);                   // constructor 2 (nombre + cupos)
+        Curso c3 = new Curso("Estructuras de Datos", 25, "Carlos Ruiz"); // constructor 3 (todos los datos)
+
+        System.out.println();
+        c1.mostrarInfo();
+        c2.mostrarInfo();
+        c3.mostrarInfo();
+
 }
