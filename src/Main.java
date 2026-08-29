@@ -23,5 +23,5 @@ public class Main {
         c1.mostrarInfo();
         c2.mostrarInfo();
         c3.mostrarInfo();
-
+    }
 }

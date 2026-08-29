@@ -27,5 +27,5 @@ public class Curso {
     // Método
     public void mostrarInfo() {
         System.out.println("Curso: " + nombreCurso + " | Cupos: " + cupos + " | Profesor: " + profesorAsignado);
-
+    }
 }
