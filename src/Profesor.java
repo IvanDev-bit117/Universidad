@@ -9,7 +9,7 @@ public class Profesor {
         System.out.println(">> Se creó un Profesor con el constructor PARAMETRIZADO");
     }
     public void mostrarInfo() {
-        System.out.println("Profesor: " + nombre + " / Salario: $" + salario);
+        System.out.println("Profesor: " + nombre + " / Salario: $" + salario+" COP");
     }
 }
 
