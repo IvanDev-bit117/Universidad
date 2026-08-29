@@ -13,4 +13,16 @@ public class Curso {
         this(nombreCurso, cupos, "Sin profesor asignado"); // manda un profesor fijo
         System.out.println(">> Constructor 2: se asignó profesor por defecto");
     }
+    // Constructor 3: el más completo, recibe los 3 datos
+    public Curso(String nombreCurso, int cupos, String profesorAsignado) {
+        // Aquí es donde realmente se guardan los valores en el objeto
+        this.nombreCurso = nombreCurso;
+        this.cupos = cupos;
+        this.profesorAsignado = profesorAsignado;
+        System.out.println(">> Constructor 3: datos completos asignados");
+    }
+
+    // Método
+    public void mostrarInfo() {
+        System.out.println("Curso: " + nombreCurso + " | Cupos: " + cupos + " | Profesor: " + profesorAsignado);
 
