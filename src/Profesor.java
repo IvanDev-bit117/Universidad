@@ -8,5 +8,8 @@ public class Profesor {
         this.salario = salario;
         System.out.println(">> Se creó un Profesor con el constructor PARAMETRIZADO");
     }
+    public void mostrarInfo() {
+        System.out.println("Profesor: " + nombre + " / Salario: $" + salario);
+    }
 }
 
