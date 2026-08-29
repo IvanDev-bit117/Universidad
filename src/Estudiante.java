@@ -1,7 +1,7 @@
 public class Estudiante {
         private String nombre="";
         private int edad=0;
-        private String carrera"";
+        private String carrera="";
 
         // Constructor sin parámetros
         public Estudiante() {
